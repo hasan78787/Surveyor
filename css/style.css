@@ -1,0 +1,237 @@
+body{
+	    background: #D2D6DB;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background: #03084C;
+}
+
+.navbar-default .navbar-brand {
+    color: #efe6e6;
+    background: #FF5A00;
+    font-weight: 900;
+}
+.navbar-default .navbar-brand:hover,.navbar-default 
+.navbar-brand:focus {
+color: #ffffff;
+ background: #de4f01;
+}
+
+.navbar-default .navbar-brand:sup{
+	font-size: 12px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #b5b3b3;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default 
+.navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
+    color: #a9a6a6;
+    background-color: #363A70;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 0px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav >
+.open > a:focus,.navbar-default .navbar-nav .dropdown a {
+    color:#ff5a00;
+    background-color: #03084c;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+
+   .row {
+    margin-right: -15px;
+    margin-left: -30px;
+    margin-top: -21px;
+}
+
+.measure-image{
+    position: relative;
+}
+
+.measure-image img {
+ width: 100%;
+height: 100vh;
+
+}
+
+.measure-text {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+
+.measure-text h1 {
+    margin-left: 118px;
+    color: #fff;
+    font-weight: 900;
+    padding-bottom: 14px;
+}
+
+.measure-text p {
+    mmargin: 7px -27px 10px;
+    padding: 0px 191px 0px 79px;
+    color: #5e666d;
+    font-weight: 300;
+}
+
+
+.jumbotron {
+   background-color: #D2D6DB;
+    border-radius: 0 !important;
+}
+
+.jumbotron h2 {
+  margin-bottom: -72px; 
+}
+.jumbotron img {
+   
+}
+
+.container {
+    border: 1.5px solid #A8D2F5;
+}
+
+.heading{
+text-align: center;
+}
+.heading h2{
+       color: #FF5A00;
+    text-align: center;
+    padding-top: 31px; 
+}
+.heading p{
+        max-width: 879px;
+        margin: 0 auto;
+        padding-bottom: 135px;
+}
+
+.certificate img {
+    float: left;
+    width: 91px;
+    margin-right: 15px;
+}
+.certificate .content{
+    
+}
+.certificate .content h4{
+    
+}
+.certificate .content p{
+    
+}
+.gallary {
+    margin-bottom: 4em;
+}
+
+@media (max-width: 767px) {
+.certificate img {
+        float: none;
+        margin: 0 auto;
+}
+.certificate .content{text-align: center;}
+
+}
+
+.btn-default{
+height: 33px;
+    width: 166px;
+    background-color: blue;
+    color: #fff;
+    margin-bottom: 108px;
+    margin-top: 32px;
+}
+.r-button{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.phasellus{
+        background-color: #FF5A00;
+}
+
+.content-11 h1 {
+   margin-top: 105px;
+    margin-bottom: 20px;
+    color: #fff;
+    padding-left: 70px;
+}
+.content-11 p {
+    padding-left: 70px;
+}
+
+.img-11 img{
+height: 557px;
+    margin-top: 63px;
+}
+
+.footer-logo {
+    background-color: #5373D2;
+}
+.footer-logo .logo-img {
+        margin-right: 39px;
+    margin-top: -11px;
+}
+.footer-logo .logo-img  img{
+  margin-top: 40px;
+}
+
+.contact-111{
+background-color: #03084C;
+}
+.contact-111 h3{
+    color: #fff;
+    margin-top: 78px;
+        padding-left: 10px;
+}
+
+.contact-111 h5{
+color: #fff;
+    padding-left: 10px;
+}
+
+.contact-111 p{
+color: #fff;
+    padding-left: 10px;
+}
+
+.copyright{background-color: #03084C}
+.copyright p{
+    color: #fff;
+    margin-left: 305px;
+    padding-top: 42px;
+    padding-bottom: 25px;
+}
